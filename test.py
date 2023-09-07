@@ -68,9 +68,7 @@ def upload_and_process():
             sum = []
             sum_end = []
             for i in range(len(lin) - 1):
-                if re.match(pattern_1, lin[i]) or re.match(pattern_2, lin[i]) or re.match(pattern_3,
-                                                                                              lin[i]) or re.match(
-                            pattern_4, lin[i]):
+                if re.match(pattern_1, lin[i]) or re.match(pattern_2, lin[i]) or re.match(pattern_3, lin[i]) or re.match(pattern_4, lin[i]):
                     sum.append(lin[i + 1])
             for k in sum:
                 k1 = k.replace('\xa0', ' ')
@@ -118,9 +116,7 @@ def upload_and_process():
                 sum = []
                 sum_end = []
                 for i in range(len(lin) - 1):
-                    if re.match(pattern_1, lin[i]) or re.match(pattern_2, lin[i]) or re.match(pattern_3,
-                                                                                              lin[i]) or re.match(
-                            pattern_4, lin[i]):
+                    if re.match(pattern_1, lin[i]) or re.match(pattern_2, lin[i]) or re.match(pattern_3, lin[i]) or re.match(pattern_4, lin[i]):
                         sum.append(lin[i + 1])
                 for k in sum:
                     k1 = k.replace('\xa0', ' ')
