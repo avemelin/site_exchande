@@ -133,7 +133,7 @@ def upload_and_process():
             workbook.save(result_path)
             return send_file(result_path, as_attachment=True)
 
-    return render_template("upload.html")
+    return render_template(upload.html)
 
 
 if __name__ == "__main__":
